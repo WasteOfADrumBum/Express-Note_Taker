@@ -10,13 +10,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-/* app.get("/", function (req, res) {
-	res.json(path.join(__dirname, "index.html"));
-}); */
-
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-
 module.exports = function (app) {
 	// GET `*` - Should return the `index.html` file
 	app.get("*", function (req, res) {
