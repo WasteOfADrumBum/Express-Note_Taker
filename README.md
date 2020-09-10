@@ -1,81 +1,79 @@
-# Unit 11 Express Homework: Note Taker
+# **Express Homework: Note Taker**
+
+![GitHub license](https://img.shields.io/badge/Made%20by-%40WasteOfADrumBum-green)
 
 ## Description
 
-Create an application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
+An application that can be used to write, save, and delete notes. This application will use an express backend and save and retrieve note data from a JSON file.
 
-- The application frontend has already been created, it's your job to build the backend and connect the two.
+# Technologies Used
 
-- The following HTML routes should be created:
+![GitHub top language](https://img.shields.io/github/languages/top/WasteOfADrumBum/Express-Note_Taker?color=green&logo=github&logoColor=green)
+![GitHub language count](https://img.shields.io/github/languages/count/WasteOfADrumBum/Express-Note_Taker?color=green&logo=github&logoColor=green)
 
-  - GET `/notes` - Should return the `notes.html` file.
+## Table of contents
 
-  - GET `*` - Should return the `index.html` file
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Features](#features)
+- [Example Gif](#example-gif)
+- [Repository Link](#Repository)
+- [Test](#Test)
+- [Licence](#Licence)
+- [GitHub Info](#GitHub)
 
-- The application should have a `db.json` file on the backend that will be used to store and retrieve notes using the `fs` module.
+## Installation
 
-- The following API routes should be created:
+This app should be deployed on Heroku.
 
-  - GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.
+## Instructions
 
-  - POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.
+- The URL of the deployed application. https://serene-wave-63976.herokuapp.com/
 
-  - DELETE `/api/notes/:id` - Should receive a query parameter containing the id of a note to delete. This means you'll need to find a way to give each note a unique `id` when it's saved. In order to delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+## Features
 
-## User Story
+- Write and save notes - Delete notes - organize thoughts and keep track of tasks needing completion
 
-AS A user, I want to be able to write and save notes
+## Example Gif
 
-I WANT to be able to delete notes I've written before
+<img src="public\assets\images\note-taker.gif" width="500" />
 
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+## Repository
 
-## Business Context
+![GitHub repo size](https://img.shields.io/github/repo-size/WasteOfADrumBum/Express-Note_Taker?logo=github)
 
-For users that need to keep track of a lot of information, it's easy to forget or be unable to recall something important. Being able to take persistent notes allows users to have written information available when needed.
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/m/WasteOfADrumBum/Express-Note_Taker)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/WasteOfADrumBum/Express-Note_Taker)
 
-## Acceptance Criteria
+![GitHubopen pull request](https://img.shields.io/github/issues-pr/WasteOfADrumBum/Express-Note_Taker)
+![GitHub closed pull request](https://img.shields.io/github/issues-pr-closed/WasteOfADrumBum/Express-Note_Taker)
 
-Application should allow users to create and save notes.
+![GitHub Stars](https://img.shields.io/github/stars/WasteOfADrumBum/Express-Note_Taker?style=social)
 
-Application should allow users to view previously saved notes.
+- [Project Repo](https://github.com/WasteOfADrumBum/Express-Note_Taker)
 
-Application should allow users to delete previously saved notes.
+## Contributors
 
-## Deploying the App
+![GitHub contributors](https://img.shields.io/github/contributors/WasteOfADrumBum/Express-Note_Taker)
+![GitHub Forks](https://img.shields.io/github/forks/WasteOfADrumBum/Express-Note_Taker?label=Fork)
+![GitHub Watchers](https://img.shields.io/github/watchers/WasteOfADrumBum/Express-Note_Taker?label=Watch)
 
-You will not be able to deploy your server side code on GitHub pages. This app should be deployed on Heroku. Carefully follow the [Heroku Guide](../04-Supplemental/HerokuGuide.md) for getting your app deployed on Heroku.
+## Test
 
----
+![GitHub test](https://img.shields.io/badge/test-100%25-success)
 
-## Commit Early and Often
+![GitHub open issues](https://img.shields.io/github/issues/WasteOfADrumBum/Express-Note_Taker)
+![GitHub closed issues](https://img.shields.io/github/issues-closed/WasteOfADrumBum/Express-Note_Taker)
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+## Licence
 
-- Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-- Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+## GitHub
 
-Follow these guidelines for committing:
+<img src="https://avatars0.githubusercontent.com/u/66432859?v=4" width="250" />
 
-- Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
-
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
-
-- Don't commit half-done work, for the sake of your collaborators (and your future self!).
-
-- Test your application before you commit to ensure functionality at every step in the development process.
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL of the deployed application. This should be the link to the url provided by Heroku. Be sure not to submit a link to the Heroku dashboard.
-
-- The URL of the GitHub repository
-
----
-
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+- Joshua M. Small
+- [GitHub Profile](https://github.com/WasteOfADrumBum)
+- <JMSmall89@gmail.com>
+- ![GitHub Followers](https://img.shields.io/github/followers/WasteOfADrumBum?label=Follow)
